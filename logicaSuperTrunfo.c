@@ -103,7 +103,7 @@ printf("Super Poder: Carta 1 venceu ?(%s)\n", (super_poder1 > super_poder2) ? "S
 
 //COMPARACAO COM IF ELSE:
 
-if (super_poder1 > super_poder1)
+if (super_poder1 > super_poder2)
 {printf("Carta 1 (%s) VENCEU, o SUPER PODER E MAIOR: %.2f", nome1, pib_per_capita1);
 
 }else
