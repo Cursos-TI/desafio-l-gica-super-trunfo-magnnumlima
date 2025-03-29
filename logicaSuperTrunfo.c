@@ -75,20 +75,20 @@ int main()
 
     
         printf("\nComparacao de cartas, voce escolheu POPULACAO\n");
-        printf("\nCarta 1 %s do estado (%s): %d\n", nome1, estado1, populacao1);
-        printf("\nCarta 2 %s do estado (%s): %d\n", nome2, estado2, populacao2);
+        printf("\nCarta 1: %s do estado (%s): %d\n", nome1, estado1, populacao1);
+        printf("\nCarta 2: %s do estado (%s): %d\n", nome2, estado2, populacao2);
 
         if (populacao1 > populacao1)
         {
-        printf("\nCarta 1 %s venceu!! (%d)\n", nome1, populacao1);
+        printf("\nCarta 1: %s venceu!! (%d)\n", nome1, populacao1);
         }else if (populacao2 > populacao1){
-        printf("\nCarta 2 %s venceu!! (%d)\n", nome2, populacao2);
+        printf("\nCarta 2: %s venceu!! (%d)\n", nome2, populacao2);
 
         }else{
         printf("\nEMPATE!\n");
         printf("\nAs duas cartas possuem a mesma populacao\n");
-        printf("\nPopulacao carta 1 (%d)\n", populacao1);
-        printf("\nPopulacao carta 2 (%d)\n", populacao2);
+        printf("\nPopulacao carta 1: (%d)\n", populacao1);
+        printf("\nPopulacao carta 2: (%d)\n", populacao2);
         }
         break;
     
@@ -97,19 +97,19 @@ int main()
 
 
         printf("\nComparacao de cartas, voce escolheu AREA km2\n");
-        printf("\nCarta 1 %s do estado (%s): %.2f\n", nome1, estado1, area1);
-        printf("\nCarta 2 %s do estado (%s): %.2f\n", nome2, estado2, area2);
+        printf("\nCarta 1: %s do estado (%s): %.2f\n", nome1, estado1, area1);
+        printf("\nCarta 2: %s do estado (%s): %.2f\n", nome2, estado2, area2);
 
         if (area1 > area2)
         {
-            printf("\nCarta 1 %s venceu!! Area (%.2f)\n", nome1, area1);
+            printf("\nCarta 1: %s venceu!! Area (%.2f)\n", nome1, area1);
         }else if (area2 > area1){
-        printf("\nCarta 2 %s venceu!! Area (%.2f)\n", nome2, area2);
+        printf("\nCarta 2: %s venceu!! Area (%.2f)\n", nome2, area2);
         }else{
             printf("\nEMPATE!\n");
             printf("\nAs duas cartas possuem a mesma AREA km2\n");
-            printf("\nArea carta 1 (%.2f)\n", area1);
-            printf("\nArea carta 2 (%.2f)\n", area2);
+            printf("\nArea carta 1: (%.2f)\n", area1);
+            printf("\nArea carta 2: (%.2f)\n", area2);
 
         }
         break;
@@ -119,19 +119,19 @@ int main()
 
 
         printf("\nComparacao de cartas, voce escolheu PIB\n");
-        printf("\nCarta 1 %s do estado (%s): %.2f\n", nome1, estado1, pib1);
-        printf("\nCarta 2 %s do estado (%s): %.2f\n", nome2, estado2, pib2);
+        printf("\nCarta 1: %s do estado (%s): %.2f\n", nome1, estado1, pib1);
+        printf("\nCarta 2: %s do estado (%s): %.2f\n", nome2, estado2, pib2);
 
         if (pib1 > pib2){
-            printf("\nCarta 1 %s do estado (%s) venceu!! PIB (%.2f)", nome1, estado1, pib1);
+            printf("\nCarta 1: %s do estado (%s) venceu!! PIB (%.2f)", nome1, estado1, pib1);
         }else if (pib2 > pib1){
-            printf("Carta 2 %s do estado (%s) venceu!! PIB (%.2f)", nome2, estado2, pib2);
+            printf("\nCarta 2: %s do estado (%s) venceu!! PIB (%.2f)", nome2, estado2, pib2);
 
         }else{
             printf("\nEMPATE!\n");
             printf("\nAs duas cartas possuem o mesmo PIB\n");
-            printf("\nPIB carta 1 (%.2f)\n", pib1);
-            printf("\nPIB carta 2 (%.2f)\n", pib2);
+            printf("\nPIB carta 1: (%.2f)\n", pib1);
+            printf("\nPIB carta 2: (%.2f)\n", pib2);
         }
         break;
 
@@ -140,13 +140,13 @@ int main()
 
 
         printf("\nComparacao de cartas, voce escolheu Pontos Turisticos\n");
-        printf("\nCarta 1 %s do estado (%s): %d\n", nome1, estado1, pontos_turisticos1);
-        printf("\nCarta 2 %s do estado (%s): %d\n", nome2, estado2, pontos_turisticos2);
+        printf("\nCarta 1: %s do estado (%s): %d\n", nome1, estado1, pontos_turisticos1);
+        printf("\nCarta 2: %s do estado (%s): %d\n", nome2, estado2, pontos_turisticos2);
 
         if (pontos_turisticos1 > pontos_turisticos2){
-            printf("\nCarta 1 %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos1);
+            printf("\nCarta 1: %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos1);
         }else if (pontos_turisticos2 > pontos_turisticos1){
-            printf("\nCarta 2 %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos2);
+            printf("\nCarta 2: %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos2);
         }else{
             printf("\nEMPATE!\n");
             printf("\nAs duas cartas possuem o mesmo numero de Pontos Turisticos\n");
@@ -160,13 +160,13 @@ int main()
 
 
         printf("\nComparacao de cartas, voce escolheu Densidade Demografica\n");
-        printf("\nCarta 1 %s do estado (%s): %.2f\n", nome1, estado1, densidade1);
-        printf("\nCarta 2 %s do estado (%s): %.2f\n", nome2, estado2, densidade2);
+        printf("\nCarta 1: %s do estado (%s): %.2f\n", nome1, estado1, densidade1);
+        printf("\nCarta 2: %s do estado (%s): %.2f\n", nome2, estado2, densidade2);
 
         if (densidade1 < densidade2){
-            printf("\nCarta 1 %s venceu!! Habitantes/km2 (%.2f)\n", nome1, densidade1);
+            printf("\nCarta 1: %s venceu!! Habitantes/km2 (%.2f)\n", nome1, densidade1);
         }else if(densidade2 < densidade1){
-            printf("\nCarta 2 %s venceu!! Habitantes/km2 (%.2f)\n", nome2, densidade2);
+            printf("\nCarta 2: %s venceu!! Habitantes/km2 (%.2f)\n", nome2, densidade2);
         }else{
             printf("EMPATE!\n");
             printf("\nAs duas cartas possuem a mesma Densidade Femografica\n");
@@ -179,13 +179,13 @@ int main()
         case 6: // Comparar PIB per capita
         
         printf("\nComparacao de cartas, voce escolheu PIB per Capita\n");
-        printf("\nCarta 1 %s do estado (%s): %.2f\n", nome1, estado1, pib_per_capita1);
-        printf("\nCarta 2 %s do estado (%s): %.2f\n", nome2, estado2, pib_per_capita2);
+        printf("\nCarta 1: %s do estado (%s): %.2f\n", nome1, estado1, pib_per_capita1);
+        printf("\nCarta 2: %s do estado (%s): %.2f\n", nome2, estado2, pib_per_capita2);
 
         if (pib_per_capita1 > pib_per_capita2){
-            printf("\nCarta 1 %s venceu!! PIB per capita (%.2f)\n", nome1, pib_per_capita1);
+            printf("\nCarta 1: %s venceu!! PIB per capita (%.2f)\n", nome1, pib_per_capita1);
         }else if (pib_per_capita2 > pib_per_capita1){
-            printf("\nCarta 2 %s venceu!! PIB per capita (%.2f)\n", nome2, pib_per_capita2);
+            printf("\nCarta 2: %s venceu!! PIB per capita (%.2f)\n", nome2, pib_per_capita2);
         }else{
             printf("\nEMPATE!\n");
             printf("\nAs duas cartas possuem o mesmo PIB per capita\n");
