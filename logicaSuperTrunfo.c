@@ -78,7 +78,7 @@ int main()
         printf("\nCarta 1: %s do estado (%s): %d\n", nome1, estado1, populacao1);
         printf("\nCarta 2: %s do estado (%s): %d\n", nome2, estado2, populacao2);
 
-        if (populacao1 > populacao1)
+        if (populacao1 > populacao2)
         {
         printf("\nCarta 1: %s venceu!! (%d)\n", nome1, populacao1);
         }else if (populacao2 > populacao1){
