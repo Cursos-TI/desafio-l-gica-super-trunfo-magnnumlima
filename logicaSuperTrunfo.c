@@ -146,7 +146,7 @@ int main()
         if (pontos_turisticos1 > pontos_turisticos2){
             printf("\nCarta 1: %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos1);
         }else if (pontos_turisticos2 > pontos_turisticos1){
-            printf("\nCarta 2: %s venceu!! Pontos Turisticos(%d)\n", nome1, pontos_turisticos2);
+            printf("\nCarta 2: %s venceu!! Pontos Turisticos(%d)\n", nome2, pontos_turisticos2);
         }else{
             printf("\nEMPATE!\n");
             printf("\nAs duas cartas possuem o mesmo numero de Pontos Turisticos\n");
